@@ -14,15 +14,18 @@
 	font-named-instance: 'Italic';
 	src: url(inter-italic-var.woff2) format('woff2');
 }
+
+
 body {
-	margin: 22px auto;
-	max-width: 650px;
+	margin: 0;
+	/*max-width: 650px;*/
 	line-height: 1.6;
 	background-color: #fff;
 	color: #444;
 	padding: 0 10px;
 	font-family: 'Inter var', sans-serif;
 	font-size: 1rem;
+	background-color :snow;
 }
 h1, h2, h3 {
 	line-height: 1.2
@@ -54,6 +57,7 @@ pre, code {
 	position: relative;
 	overflow: hidden;
 	padding-top: 56.25%;
+	
 }
 .iframe-wrapper iframe {
 	position: absolute;
@@ -67,3 +71,5 @@ pre, code {
 	max-width: 100%;
 	overflow-x: auto;
 }
+
+

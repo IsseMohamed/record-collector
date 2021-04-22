@@ -23,10 +23,10 @@
 	@if (Model.RootCultures.Count > 0 && Model.CurrentPath != "/"
 		 || Model.NavigationItems.Count > 0)
 	{
-		<div id="skip">
+		<div id="skip" >
 			<a href="#main">@Model.Localizer["Skip to main content"]</a>
 		</div>
-		<div role="navigation">
+		<div class="center" role="navigation" style="background-image: url(/images/menu-background.jpg)" >
 			@if (Model.NavigationItems.Count > 0)
 			{
 				<ul>

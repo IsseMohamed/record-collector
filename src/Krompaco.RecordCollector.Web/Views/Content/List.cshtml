@@ -28,7 +28,7 @@ else
 				<h3>
 					<a href="@sp.RelativeUrl">@sp.Title</a>
 				</h3>
-
+				<img src="@sp.Images.FirstOrDefault()" alt="" />
 				@if (sp.Date != DateTime.MinValue)
 				{
 					<time datetime="@sp.Date.ToString("yyyy-MM-dd")">@sp.Date.ToShortDateString()</time>
